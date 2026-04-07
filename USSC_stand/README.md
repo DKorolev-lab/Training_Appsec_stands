@@ -1,18 +1,18 @@
 ## 🛡️Эксплуатация USSC Stand
 ### Развертывание
-1. docker build -t USSC_stand .
-2. docker run -d --name USSC_stand -p 80:80 USSC_stand
+1. docker build -t ussc_stand .
+2. docker run -d --name USSC_stand -p 80:80 ussc_stand
 #### Настройка:
 1. Откройте в браузере http://<ваш-ip>/install.php
 
 ## 🔍 Задание:
-### Client-side уязвимости (2 на выбор, например):
+### Client-side уязвимости (минимум 10 различных, например):
 1. Межсайтовый скриптинг (XSS)
 2. Подделка межсайтовых запросов (CSRF)
 3. Clickjacking
 4. DOM-based уязвимости
 
-## Server-side уязвимости (4 на выбор, например):
+## Server-side уязвимости (минимум 10 различных, например):
 1. SQL-инъекции
 2. Небезопасная десериализация
 3. XXE-инъекции
